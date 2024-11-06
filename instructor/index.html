@@ -566,16 +566,38 @@ Finish
       The actual schedule may vary slightly depending on the topics and exercises chosen by the instructor.
       </p>
       </section><section id="setup"><section><h2 class="section-heading" id="installing-git">Installing Git<a class="anchor" aria-label="anchor" href="#installing-git"></a></h2>
-<hr class="half-width"><p>Since several Carpentries lessons rely on Git, please see <a href="https://carpentries.github.io/workshop-template/install_instructions/#git" class="external-link">this
-section of the workshop template</a> for instructions on installing Git
-for various operating systems.</p>
-<ul><li><a href="https://carpentries.github.io/workshop-template/install_instructions/#git" class="external-link">Git
-installation on Windows</a></li>
-<li><a href="https://carpentries.github.io/workshop-template/install_instructions/#git" class="external-link">Git
-installation on MacOS</a></li>
-<li><a href="https://carpentries.github.io/workshop-template/install_instructions/#git" class="external-link">Git
-installation on Linux</a></li>
-</ul></section><section><h2 class="section-heading" id="creating-a-github-account">Creating a GitHub Account<a class="anchor" aria-label="anchor" href="#creating-a-github-account"></a></h2>
+<hr class="half-width"><div class="section level3">
+<h3 id="installing-git-on-ukceh-laptops">Installing Git on UKCEH Laptops<a class="anchor" aria-label="anchor" href="#installing-git-on-ukceh-laptops"></a></h3>
+<p>Git can be installed on UKCEH laptops through the Software
+Centre.</p>
+<ol style="list-style-type: decimal"><li>Open the software center and type <code>git</code> in the search bar
+in the top-right.</li>
+<li>Locate Git on the list, click on it, and then click “Install”.</li>
+</ol><figure><img src="../fig/ceh_software_center.png" alt="UKCEH Software Center" class="figure mx-auto d-block"><div class="figcaption">UKCEH Software Center</div>
+</figure><blockquote>
+<p>This will install Git and other utilities on your system, including
+GitBash. GitBash is a <a href="https://www.gnu.org/software/bash/manual/bash.html" class="external-link">BASH</a>
+emulator that we will use to provide a UNIX like command line to work
+with during the course of this carpentry course.</p>
+</blockquote>
+<ol start="3" style="list-style-type: decimal"><li>Check the installation has been successful by opening the start
+menu, typing <code>gitbash</code> in the search bar and hitting
+enter.</li>
+<li>You should be greeted by a small, black, command line window. Type
+<code>git --version</code> and hit enter, you should receive similar
+information as below:</li>
+</ol><figure><img src="../fig/gitbash.png" alt="Git Bash" class="figure mx-auto d-block"><div class="figcaption">Git Bash</div>
+</figure></div>
+<div class="section level3">
+<h3 id="other-systems">Other Systems<a class="anchor" aria-label="anchor" href="#other-systems"></a></h3>
+<p>If you are using your own machine or a virtual machine, please refer
+to the carpentries instructions for installing Git on your chosen
+platform: - <a href="https://carpentries.github.io/workshop-template/install_instructions/#git" class="external-link">Git
+installation on Windows</a> - <a href="https://carpentries.github.io/workshop-template/install_instructions/#git" class="external-link">Git
+installation on MacOS</a> - <a href="https://carpentries.github.io/workshop-template/install_instructions/#git" class="external-link">Git
+installation on Linux</a></p>
+</div>
+</section><section><h2 class="section-heading" id="creating-a-github-account">Creating a GitHub Account<a class="anchor" aria-label="anchor" href="#creating-a-github-account"></a></h2>
 <hr class="half-width"><p>You will need an account for <a href="https://github.com" class="external-link">GitHub</a>
 to follow episodes 7 &amp; 8 in this lesson.</p>
 <ol style="list-style-type: decimal"><li>Go to <a href="https://github.com" class="external-link uri">https://github.com</a> and follow the “Sign up” link at the
@@ -609,8 +631,15 @@ Titan key</a>.</li>
 </ol></li>
 </ol><p>The GitHub documentation provides <a href="https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication" class="external-link">more
 details about configuring 2FA</a>.</p>
-<hr></div>
-</section><section><h2 class="section-heading" id="preparing-your-working-directory">Preparing Your Working Directory<a class="anchor" aria-label="anchor" href="#preparing-your-working-directory"></a></h2>
+</div>
+</section><section><h2 class="section-heading" id="github-organisations">GitHub Organisations<a class="anchor" aria-label="anchor" href="#github-organisations"></a></h2>
+<hr class="half-width"><p>There are several UKCEH organisations you may want to join once you
+have created a GitHub account. To join any of these GitHub organisations
+please reach out to the relevant contact: - <a href="https://github.com/NERC-CEH" class="external-link">NERC-CEH</a> (contact <a href="https://github.com/rodscott" class="external-link">Rod Scott</a>) - <a href="https://github.com/ukceh-rse" class="external-link">ukceh-rse</a> (contact <a href="https://github.com/jmarshrossney" class="external-link">Joe Marsh Rossney</a>)</p>
+<p>This is entirely optional and this course can be completed without
+joinging these organisation, but we do recommend this so you can get
+visibility on what others are doing at UKCEH.</p>
+<hr></section><section><h2 class="section-heading" id="preparing-your-working-directory">Preparing Your Working Directory<a class="anchor" aria-label="anchor" href="#preparing-your-working-directory"></a></h2>
 <hr class="half-width"><p>We’ll do our work in the <code>Desktop</code> folder so make sure you
 change your working directory to it with:</p>
 <div class="codewrapper sourceCode" id="cb1">
@@ -634,12 +663,12 @@ change your working directory to it with:</p>
         <p>This lesson is subject to the <a href="CODE_OF_CONDUCT.html">Code of Conduct</a></p>
         <p>
 
-        <a href="https://github.com/swcarpentry/git-novice/edit/main/index.md" class="external-link">Edit on GitHub</a>
+        <a href="https://github.com/ukceh-rse/git-novice/edit/main/index.md" class="external-link">Edit on GitHub</a>
 
 	
-        | <a href="https://github.com/swcarpentry/git-novice/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a>
-        | <a href="https://github.com/swcarpentry/git-novice/" class="external-link">Source</a></p>
-				<p><a href="https://github.com/swcarpentry/git-novice/blob/main/CITATION" class="external-link">Cite</a> | <a href="mailto:team@carpentries.org">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
+        | <a href="https://github.com/ukceh-rse/git-novice/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a>
+        | <a href="https://github.com/ukceh-rse/git-novice/" class="external-link">Source</a></p>
+				<p><a href="https://github.com/ukceh-rse/git-novice/blob/main/CITATION" class="external-link">Cite</a> | <a href="mailto:team@carpentries.org">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
 			</div>
 			<div class="col-md-6">
 
@@ -658,18 +687,18 @@ change your working directory to it with:</p>
     {
   "@context": "https://schema.org",
   "@type": "TrainingMaterial",
-  "@id": "https://swcarpentry.github.io/git-novice/instructor/index.html",
+  "@id": "https://ukceh-rse.github.io/git-novice/instructor/index.html",
   "inLanguage": "en",
   "dct:conformsTo": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE",
   "description": "A Carpentries Lesson teaching foundational data and coding skills to researchers worldwide",
   "keywords": "software, data, lesson, The Carpentries",
   "name": "Version Control with Git",
   "creativeWorkStatus": "active",
-  "url": "https://swcarpentry.github.io/git-novice/instructor/index.html",
-  "identifier": "https://swcarpentry.github.io/git-novice/instructor/index.html",
+  "url": "https://ukceh-rse.github.io/git-novice/instructor/index.html",
+  "identifier": "https://ukceh-rse.github.io/git-novice/instructor/index.html",
   "dateCreated": "2014-12-04",
-  "dateModified": "2024-11-05",
-  "datePublished": "2024-11-05"
+  "dateModified": "2024-11-06",
+  "datePublished": "2024-11-06"
 }
 
   </script><script>
