@@ -137,15 +137,6 @@ You can think of the public key as a padlock, and only you have the key (the pri
 
 What we will do now is the minimum required to set up the SSH keys and add the public key to a GitHub account.
 
-:::::::::::::::::::::::::::::::::::::::::  callout
-
-## Advanced SSH
-
-A supplemental episode in this lesson discusses SSH and key pairs in more depth and detail.
-
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
 The first thing we are going to do is check if this has already been done on the computer you're on.  Because generally speaking, this setup only needs to happen once and then you can forget about it.
 
 :::::::::::::::::::::::::::::::::::::::::  callout
@@ -153,8 +144,9 @@ The first thing we are going to do is check if this has already been done on the
 ## Keeping your keys secure
 
 You shouldn't really forget about your SSH keys, since they keep your account secure. It's good
-practice to audit your secure shell keys every so often. Especially if you are using multiple
-computers to access your account.
+practice to check your SSH keys every so often to ensure they are still secure, up to date, 
+and that there are no unauthorized keys that could compromise your account.
+This is especially important if you are using multiple computers to access your account.
 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -162,7 +154,7 @@ computers to access your account.
 We will run the list command to check what key pairs already exist on your computer.
 
 ```bash
-ls -al ~/.ssh
+$ ls -al ~/.ssh
 ```
 
 Your output is going to look a little different depending on whether or not SSH has ever been set up on the computer you are using.
