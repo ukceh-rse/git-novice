@@ -59,9 +59,9 @@ The GitHub documentation provides [more details about configuring 2FA](https://d
 
 ## GitHub Organisations
 
-There are several UKCEH organisations you may want to join once you have created a GitHub account. To join any of these GitHub organisations please reach out to the relevant contact: 
-- [NERC-CEH](https://github.com/NERC-CEH) (contact [Rod Scott](https://github.com/rodscott))
-- [ukceh-rse](https://github.com/ukceh-rse) (contact [Joe Marsh Rossney](https://github.com/jmarshrossney))
+Once you have created your GitHub account, you may wish to join the [UKCEH GitHub Organisation](https://github.com/NERC-CEH) - which you can do by emailing UKCEH IT Support (itsupport@ceh.ac.uk).
+
+There is also a UKCEH RSE GitHub Organisation, here we have a discussions board where you can ask questions or get support: [ukceh-rse](https://github.com/ukceh-rse).
 
 This is entirely optional and this course can be completed without joinging these organisation, but we do recommend this so you can get visibility on what others are doing at UKCEH. 
 
