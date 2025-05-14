@@ -21,10 +21,10 @@ exercises: 0
 The next few episodes introduce the commands needed to view files and move between directories (folders)
 on your computer.
 
-The full details of how to use the command line are covered in the lession [Introduction to the Unix Shell](https://swcarpentry.github.io/shell-novice/). If learners encouraged to look at those resources as this will help your understanding, but they are not needed for this lesson. In this lesson, we will have a quick recap of those commands.
+The full details of how to use the command line are covered in the lesson [Introduction to the Unix Shell](https://swcarpentry.github.io/shell-novice/). Learners are encouraged to look at those resources as this will help your understanding, but they are not needed for this lesson. In this lesson, we will have a quick recap of those commands.
 
 ## The Shell/terminal
-When you open git bash you will presented with a terminal (sometimes called a *shell*). The look and layout of the terminal may vary depending on the program and computer it is on, but they usually follow a similar layout.  This layout typically has some information about the user and machine in the form `user@machine`, infomration about where you are in the directory structure (often `~`) and a prompt (`$ `).   The prompt is where we will type in commands (instructions) for the shell to run.
+When you open git bash you will be presented with a terminal (sometimes called a *shell*). The look and layout of the terminal may vary depending on the program and computer it is on, but they usually follow a similar layout.  This layout typically has some information about the user and machine in the form `user@machine`, information about where you are in the directory structure (often `~`) and a prompt (`$ `).   The prompt is where we will type in commands (instructions) for the shell to run.
 
 ## Where am I?
 
@@ -49,7 +49,7 @@ In Linux it it often `/home/username`. In Windows it tends to be
 You are perhaps more familiar with it looking like this: `C:/Users/username`
 in windows.  These two are the same, however linux uses a forward slash to
 separate directories instead of a backslash, and everything is in `/` instead
-of lettered drives.  `/` is know as the root directory.
+of lettered drives.  `/` is known as the root directory.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -100,7 +100,7 @@ To move back to out home directory we have a few options:
 
 ## Paths
 
-The path is location of a file or directory.  It describes where it is.  There are two types, relative and absolute.  A relative path descibes how to get to a file or directory from where you are, usually these do not begin with a forward slash (`/`) and look like these examples:
+The path is the location of a file or directory.  It describes where it is.  There are two types, relative and absolute.  A relative path describes how to get to a file or directory from where you are, usually these do not begin with a forward slash (`/`) and look like these examples:
 
 - `../Desktop`
 - `Downloads/Data/Carpentries`
