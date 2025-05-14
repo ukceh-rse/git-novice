@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://ukceh-rse.github.io/git-novice/00-recap-cli.html</loc>
+  </url>
+  <url>
     <loc>https://ukceh-rse.github.io/git-novice/01-basics.html</loc>
   </url>
   <url>
@@ -62,6 +65,9 @@
   </url>
   <url>
     <loc>https://ukceh-rse.github.io/git-novice/index.html</loc>
+  </url>
+  <url>
+    <loc>https://ukceh-rse.github.io/git-novice/instructor/00-recap-cli.html</loc>
   </url>
   <url>
     <loc>https://ukceh-rse.github.io/git-novice/instructor/01-basics.html</loc>
